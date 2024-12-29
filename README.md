@@ -1,1 +1,8 @@
-# my_first_web_page_2024
+# my first web page repositry
+
+this is the repository of the activity III
+
+## Actions
+
+- added the basic structure to the html file.
+- added foother and header.
