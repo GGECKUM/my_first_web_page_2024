@@ -17,6 +17,111 @@ body {
     line-height: 1.6;
 }
 
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background: #575757;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li strong {
+    font-size: 18px;
+}
+
+ul li ul {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+ul li ul li {
+    margin-bottom: 5px;
+}
+
+/* Styles for the "cursos" folder */
+.degree-info {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.degree-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.degree-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.degree-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.degree-info ul li {
+    margin-bottom: 10px;
+}
+
+.degree-info ul li strong {
+    font-size: 18px;
+}
+
+.degree-info ul li ul {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.degree-info ul li ul li {
+    margin-bottom: 5px;
+}
+
 /* Header Styles */
 header {
     position: fixed;
