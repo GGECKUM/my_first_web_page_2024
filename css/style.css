@@ -52,19 +52,45 @@ header {
     color: #ffeb3b;
 }
 
-.home, .about, .net, .topic, .degree, .contact {
+/* Section Styles */
+section {
+    padding: 100px 10%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 10%;
-    min-height: 100vh;
+    text-align: center;
 }
 
-.home-content, .about-content, .net-content, .topic-content, .degree-content, .contact-content {
-    max-width: 600px;
+section h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #333;
 }
 
-.home-content h1, .about-content h1, .net-content h1, .topic-content h1, .degree-content h1, .contact-content h1 {
+section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+section p {
+    font-size: 18px;
+    color: #777;
+}
+
+/* Home Section Styles */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../images/home-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+}
+
+.home-content h1 {
     font-size: 48px;
     margin-bottom: 10px;
 }
@@ -74,12 +100,7 @@ header {
     margin-bottom: 20px;
 }
 
-.home-content p, .about-content p, .net-content p, .topic-content p, .degree-content p, .contact-content p {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-.btn-box a {
+.btn-box .btn {
     display: inline-block;
     padding: 10px 20px;
     background: #00ced1;
@@ -89,231 +110,62 @@ header {
     transition: background 0.3s;
 }
 
-.btn-box a:hover {
+.btn-box .btn:hover {
     background: #008b8b;
 }
 
+/* Social Icons Styles */
 .home-sci a {
     font-size: 24px;
-    color: #333;
-    margin-right: 15px;
-    transition: .3s;
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s;
 }
 
 .home-sci a:hover {
-    color: #00abf0;
+    color: #ffeb3b;
 }
 
-.home-sci {
-    position: absolute;
-    bottom: 40px;
-    width: 170px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.home-sci a {
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    border: 2px solid #00abf0;
-    border-radius: 50%;
-    color: #00abf0;
-}
-
+/* Topic Content Styles */
 .topic-content {
-    padding: 20px;
-    background-color: #fff;
-    margin: 20px 10%;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px 10%;
+    background: #fff;
+    text-align: center;
 }
 
 .topic-content h3 {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    color: #333;
 }
 
 .topic-content p {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-/* Fundamentals Section Styles */
-.fundamentals {
-    padding: 100px 10%;
-    background-color: #fff;
-}
-
-.fundamentals-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.fundamentals-content h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.fundamentals-content p {
     font-size: 18px;
-    line-height: 1.6;
+    color: #777;
     margin-bottom: 20px;
 }
 
-/* CV Section Styles */
-.cv {
-    padding: 100px 10%;
-    background-color: #fff;
-}
-
-.cv-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.cv-content h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.cv-content p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-/* Degree Section Styles */
-.degree {
-    padding: 100px 10%;
-    background-color: #fff;
-}
-
-.degree-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.degree-content h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.degree-content p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-.degree-links {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.degree-links h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.degree-links ul {
-    list-style-type: none;
+.topic-content ul {
+    list-style: none;
     padding: 0;
 }
 
-.degree-links ul li {
+.topic-content ul li {
     margin-bottom: 10px;
 }
 
-.degree-links ul li a {
+.topic-content ul li a {
     font-size: 18px;
-    color: #00abf0;
+    color: #00ced1;
     text-decoration: none;
     transition: color 0.3s;
 }
 
-.degree-links ul li a:hover {
-    color: #007bb5;
+.topic-content ul li a:hover {
+    color: #008b8b;
 }
 
 /* Contact Form Styles */
-.contact-content {
-    max-width: 600px;
-    margin: 100px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.contact-content h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.contact-content form {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-content label {
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.contact-content input,
-.contact-content textarea {
-    margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-.contact-content textarea {
-    resize: vertical;
-    height: 150px;
-}
-
-.contact-content button {
-    padding: 10px 20px;
-    background: #00abf0;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
-    font-size: 16px;
-}
-
-.contact-content button:hover {
-    background: #007bb5;
-}
-
 .contact-form {
     max-width: 600px;
     margin: 100px auto;
@@ -356,28 +208,24 @@ header {
     background: #008b8b;
 }
 
-/* Controversy Text Styles */
-.textocontroversy {
-    max-width: 800px;
-    margin: 100px auto;
-    padding: 20px;
-    background-color: #fff;
+/* Button Styles for Sections */
+.section-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.section-buttons .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #00ced1;
+    color: #fff;
+    text-decoration: none;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    margin: 0 10px;
+    transition: background 0.3s;
 }
 
-.mitextoconfondo {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-.mitextoconfondo2 {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-.mitextoconfondo3 {
-    font-size: 18px;
-    line-height: 1.6;
+.section-buttons .btn:hover {
+    background: #008b8b;
 }
