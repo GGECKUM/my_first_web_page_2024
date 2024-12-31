@@ -86,7 +86,7 @@ section p {
     align-items: center;
     height: 100vh;
     background: url('../images/home-bg.jpg') no-repeat center center/cover;
-    color: #fff;
+    color: #ee3535;
     text-align: center;
 }
 
@@ -170,7 +170,7 @@ section p {
     max-width: 600px;
     margin: 100px auto;
     padding: 20px;
-    background: #fff;
+    background: #ee3535;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
