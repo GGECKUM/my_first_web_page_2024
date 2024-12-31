@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
+
+.home, .about, .net, .topic, .degree, .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 10%;
+    min-height: 100vh;
+}
+
+.home-content, .about-content, .net-content, .topic-content, .degree-content, .contact-content {
+    max-width: 600px;
+}
+
+.home-content h1, .about-content h1, .net-content h1, .topic-content h1, .degree-content h1, .contact-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.home-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.home-content p, .about-content p, .net-content p, .topic-content p, .degree-content p, .contact-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn-box a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #00abf0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.btn-box a:hover {
+    background: #007bb5;
+}
+
+.home-sci a {
+    font-size: 24px;
+    color: #333;
+    margin-right: 15px;
+    transition: .3s;
+}
+
+.home-sci a:hover {
+    color: #00abf0;
+}
+
+.home-sci {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    color: #00abf0;
+}
+
+.topic-content {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 10%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.topic-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.topic-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Fundamentals Section Styles */
+.fundamentals {
+    padding: 100px 10%;
+    background-color: #fff;
+}
+
+.fundamentals-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fundamentals-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.fundamentals-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* CV Section Styles */
+.cv {
+    padding: 100px 10%;
+    background-color: #fff;
+}
+
+.cv-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cv-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cv-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Degree Section Styles */
+.degree {
+    padding: 100px 10%;
+    background-color: #fff;
+}
+
+.degree-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.degree-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.degree-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.degree-links {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.degree-links h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.degree-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.degree-links ul li {
+    margin-bottom: 10px;
+}
+
+.degree-links ul li a {
+    font-size: 18px;
+    color: #00abf0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.degree-links ul li a:hover {
+    color: #007bb5;
+}
+
+/* Contact Form Styles */
+.contact-content {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-content label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-content input,
+.contact-content textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-content textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.contact-content button {
+    padding: 10px 20px;
+    background: #00abf0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 16px;
+}
+
+.contact-content button:hover {
+    background: #007bb5;
+}
+
+/* Controversy Text Styles */
+.textocontroversy {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.mitextoconfondo {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.mitextoconfondo2 {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.mitextoconfondo3 {
+    font-size: 18px;
+    line-height: 1.6;
+}
