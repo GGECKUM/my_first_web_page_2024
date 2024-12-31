@@ -1,29 +1,69 @@
-<header class="contact.html">
-    <a href="../../index.html" class="logo">Georgios Website</a>
-    <nav class="navbar">
-        <a href="../../index.html">Home</a>
-        <a href="../about.html">About</a>
-        <a href="../degree.html" class="active">Degree</a>
-        <a href="../topic.html">Topic</a>
-        <a href="../contact.html">Contact</a>
-        <a href="../curriculum.html">Curriculum</a>
-        <a href="../fundamentals.html">Fundamentals</a>
-        <a href="../net.html">Net</a>
-    </nav>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentals of Software Engineering</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <a href="../../index.html" class="logo">Georgios Website</a>
+        <nav class="navbar">
+            <a href="../../index.html">Home</a>
+            <a href="../about.html">About</a>
+            <a href="../degree.html">Degree</a>
+            <a href="../Info/topic.html">Topic</a>
+            <a href="../contact.html">Contact</a>
+            <a href="../curriculum.html">Curriculum</a>
+            <a href="../fundamentals.html" class="active">Fundamentals</a>
+            <a href="../net.html">Net</a>
+        </nav>
+    </header>
 
-<section class="contact-form">
-    <h2>Contact Us</h2>
-    <form action="mailto:9400406@alumnos.ufv.es" method="post" enctype="text/plain">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+    <section class="fundamentals-info">
+        <h2>Fundamentals of Software Engineering</h2>
+        <p>Software engineering is a systematic approach to the design, development, testing, and maintenance of software. It applies engineering principles to software creation to ensure that it is reliable, efficient, and meets user requirements. Here are some key fundamentals of software engineering:</p>
         
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-        
-        <input type="submit" value="Send">
-    </form>
-</section>
+        <h3>1. Software Development Life Cycle (SDLC)</h3>
+        <p>The SDLC is a process used by software engineers to design, develop, and test high-quality software. It consists of several phases, including:</p>
+        <ul>
+            <li><strong>Requirement Analysis:</strong> Gathering and analyzing the requirements from stakeholders.</li>
+            <li><strong>Design:</strong> Creating the architecture and design of the software based on the requirements.</li>
+            <li><strong>Implementation:</strong> Writing the code and converting the design into a functional software product.</li>
+            <li><strong>Testing:</strong> Verifying that the software works as intended and is free of defects.</li>
+            <li><strong>Deployment:</strong> Releasing the software to users and ensuring it operates in the production environment.</li>
+            <li><strong>Maintenance:</strong> Updating and improving the software to fix issues and add new features.</li>
+        </ul>
+
+        <h3>2. Software Design Principles</h3>
+        <p>Good software design is crucial for creating maintainable and scalable software. Some key design principles include:</p>
+        <ul>
+            <li><strong>Modularity:</strong> Breaking down the software into smaller, manageable modules.</li>
+            <li><strong>Abstraction:</strong> Hiding the complex implementation details and exposing only the necessary functionalities.</li>
+            <li><strong>Encapsulation:</strong> Bundling the data and methods that operate on the data within a single unit.</li>
+            <li><strong>Separation of Concerns:</strong> Dividing the software into distinct sections, each handling a specific aspect of the functionality.</li>
+            <li><strong>Design Patterns:</strong> Reusable solutions to common software design problems, such as Singleton, Factory, and Observer patterns.</li>
+        </ul>
+
+        <h3>3. Software Testing</h3>
+        <p>Testing is an essential part of software engineering to ensure the quality and reliability of the software. Different types of testing include:</p>
+        <ul>
+            <li><strong>Unit Testing:</strong> Testing individual components or modules of the software.</li>
+            <li><strong>Integration Testing:</strong> Testing the interaction between different components or modules.</li>
+            <li><strong>System Testing:</strong> Testing the complete and integrated software system.</li>
+            <li><strong>Acceptance Testing:</strong> Verifying that the software meets the requirements and is ready for deployment.</li>
+            <li><strong>Regression Testing:</strong> Ensuring that new changes do not introduce new defects.</li>
+        </ul>
+
+        <h3>4. Version Control</h3>
+        <p>Version control systems (VCS) are tools that help manage changes to the source code over time. They allow multiple developers to collaborate on a project and keep track of changes. Popular version control systems include Git, Subversion (SVN), and Mercurial.</p>
+
+        <h3>5. Agile Methodologies</h3>
+        <p>Agile methodologies are iterative and incremental approaches to software development. They emphasize flexibility, collaboration, and customer feedback. Some popular agile methodologies include Scrum, Kanban, and Extreme Programming (XP).</p>
+
+        <h3>6. Software Maintenance</h3>
+        <p>Software maintenance involves updating and improving the software after it has been deployed. It includes fixing bugs, adding new features, and optimizing performance. Maintenance is crucial for keeping the software relevant and functional over time.</p>
+    </section>
+</body>
+</html>
