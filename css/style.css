@@ -81,7 +81,7 @@ ul li ul li {
     margin-bottom: 5px;
 }
 
-/* Styles for the "cursos" folder */
+/* Styles for the Degree Section */
 .degree-info {
     padding: 20px;
     margin: 20px;
@@ -102,28 +102,24 @@ ul li ul li {
     color: #666;
 }
 
-.degree-info ul {
+.degree-links ul {
     list-style: none;
     padding: 0;
 }
 
-.degree-info ul li {
+.degree-links ul li {
     margin-bottom: 10px;
 }
 
-.degree-info ul li strong {
+.degree-links ul li a {
     font-size: 18px;
-    color: #333;
+    color: #00ced1;
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
-.degree-info ul li ul {
-    margin-left: 20px;
-    list-style: disc;
-}
-
-.degree-info ul li ul li {
-    margin-bottom: 5px;
-    color: #555;
+.degree-links ul li a:hover {
+    color: #008b8b;
 }
 
 /* Styles for the Fundamentals Section */
