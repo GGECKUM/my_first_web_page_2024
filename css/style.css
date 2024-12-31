@@ -126,6 +126,51 @@ ul li ul li {
     color: #555;
 }
 
+/* Styles for the Fundamentals Section */
+.fundamentals-info {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.fundamentals-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.fundamentals-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.fundamentals-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.fundamentals-info ul li {
+    margin-bottom: 10px;
+}
+
+.fundamentals-info ul li strong {
+    font-size: 18px;
+    color: #333;
+}
+
+.fundamentals-info ul li ul {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.fundamentals-info ul li ul li {
+    margin-bottom: 5px;
+    color: #555;
+}
+
 /* Header Styles */
 header {
     position: fixed;
